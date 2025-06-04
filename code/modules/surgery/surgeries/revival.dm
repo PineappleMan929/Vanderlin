@@ -54,6 +54,7 @@
 	target.grab_ghost(force = TRUE) // even suicides
 	target.emote("breathgasp")
 	target.reagents.add_reagent(/datum/reagent/medicine/atropine, 2)
+	target.blood_volume += BLOOD_VOLUME_OKAY
 	target.update_body()
 	target.visible_message(span_notice("[target] is dragged back from Necra's hold!"), span_green("I awake from the void."))
 	qdel(tool)
