@@ -3277,10 +3277,6 @@
 /obj/item/clothing/shirt/robe/newmage/adept,
 /turf/open/floor/woodturned,
 /area/rogue/indoors/town/magician)
-"bQU" = (
-/obj/structure/window,
-/turf/closed/basic,
-/area/rogue/indoors/town/manor/kitchen)
 "bRe" = (
 /obj/structure/fluff/railing/border,
 /turf/open/floor/hexstone,
@@ -9105,7 +9101,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 6
 	},
-/turf/closed/wall/mineral/decorstone,
+/turf/open/floor/ruinedwood/darker,
 /area/rogue/indoors/town/tavern)
 "flF" = (
 /obj/effect/landmark/start/shepherd{
@@ -11338,10 +11334,6 @@
 /obj/structure/fake_machine/scomm/l,
 /turf/open/floor/ruinedwood,
 /area/rogue/indoors/town/church)
-"gAy" = (
-/obj/structure/window,
-/turf/open/floor/blocks/stonered/tiny,
-/area/rogue/indoors/town/manor/kitchen)
 "gAQ" = (
 /obj/machinery/light/fueled/wallfire/candle{
 	pixel_x = 32;
@@ -97517,7 +97509,7 @@ afD
 afD
 lbO
 afD
-bQU
+lbO
 pxE
 afD
 afD
@@ -98122,7 +98114,7 @@ tlF
 tlF
 tlF
 lyY
-gAy
+lbO
 lyY
 tlF
 tlF
@@ -98526,7 +98518,7 @@ plg
 wbB
 tlF
 lyY
-gAy
+lbO
 lyY
 tlF
 tlF
