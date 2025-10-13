@@ -179,10 +179,7 @@
 				. += span_userdanger("IT'S A HORRIBLE MONSTER!!!")
 				user.emote("scream")
 			else
-				if(!ishalforc(user))
-					. += span_necrosis("They got an ugly mug")
-				else
-					. += span_necrosis("That fish is disgusting!")
+				. += span_necrosis("That fish is disgusting!")
 
 		if(real_name in GLOB.excommunicated_players)
 			. += span_userdanger("EXCOMMUNICATED!")
