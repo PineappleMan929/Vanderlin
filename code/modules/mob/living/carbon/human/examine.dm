@@ -179,7 +179,7 @@
 				. += span_userdanger("IT'S A HORRIBLE MONSTER!!!")
 				user.emote("scream")
 			else
-				. += span_necrosis("That fish is disgusting!")
+				. += span_necrosis("That fish is ugly!")
 
 		if(real_name in GLOB.excommunicated_players)
 			. += span_userdanger("EXCOMMUNICATED!")
