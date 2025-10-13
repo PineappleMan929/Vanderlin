@@ -35,10 +35,7 @@
 			if(user.age == AGE_CHILD)
 				user.add_stress(/datum/stress_event/fish_monster)
 			else
-				if(!ishalforc(user))
-					user.add_stress(/datum/stress_event/fishfaceaintthatugly)
-				else
-					user.add_stress(/datum/stress_event/fishface)
+				user.add_stress(/datum/stress_event/fishface)
 	if(HAS_TRAIT(src, TRAIT_OLDPARTY) && HAS_TRAIT(user, TRAIT_OLDPARTY) && user != src)
 		user.add_stress(/datum/stress_event/saw_old_party)
 
